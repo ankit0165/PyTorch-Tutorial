@@ -1,0 +1,49 @@
+Course Content
+1. Introduction to Classes in python
+2. introduction to PyTorch
+a. What is PyTorch?
+b. Why choose PyTorch for deep learning?
+c. Installation and setup
+3. Tensors and Operations
+a. Tensors: The fundamental data structure in PyTorch
+b. Creating tensors: torch.Tensor, torch.zeros, torch.ones, torch.rand
+c. Basic operations: elementwise addition, multiplication, etc.
+d. Indexing and slicing tensors
+e. Broadcasting
+4. Autograd: Automatic Differentiation
+a. Automatic differentiation in PyTorch
+b. Creating tensors with gradients: torch.tensor with requires_grad=True
+c. Calculating gradients with .backward()
+d. Gradient accumulation and clearing gradients
+e. Using .grad and .detach()
+5. Building and Training a Neural Network
+a. Defining a simple neural network using nn.Module
+b. Specifying layers and activation functions
+c. Forward and backward passes
+d. Defining loss functions and optimizers
+e. Training loops
+f. Using the nn.Sequential container
+6. Loading and Preprocessing Data
+a. Loading custom datasets with torch.utils.data.Dataset
+b. Data transformations using torchvision.transforms
+c. Creating data loaders with torch.utils.data.DataLoader
+d. Using the torchvision library for common datasets
+7. Model Evaluation and Validation
+a. Making predictions with trained models
+b. Computing accuracy and other metrics
+c. Validation and overfitting
+8. Saving and Loading Modelsa. Saving and loading model weights
+b. Serialisation with torch.save and torch.load
+c. Saving and loading entire models
+9. Transfer Learning and FineTuning
+a. Using pretrained models from torchvision.models
+b. Feature extraction and finetuning
+c. Modifying the architecture for transfer learning
+10. GPU Acceleration
+a. Utilising GPUs for faster training
+b. Moving tensors and models to the GPU
+c. GPUrelated functions: cuda(), cpu(), to()
+11. Customizing Training and Visualizing Results
+a. Adding custom loss functions and metrics
+b. TensorBoard integration for visualisation
+c. Plotting training curves using matplotlib
