@@ -1,5 +1,8 @@
 # PyTorch-Tutorial
 
+Create a Directory 'models' to save the checkpoints 
+Create a Directory 'dataset' and place your dataset in this directory
+
 For classification using Neural Network
 
 ```
