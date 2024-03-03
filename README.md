@@ -2,6 +2,4 @@
 
 For classification using neural network run
 
-""
-python nn_classificaiotn_Pyt.py
-""
+'''python nn_classificaiotn_Pyt.py
